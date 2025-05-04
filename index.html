@@ -1,10 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
   <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
+    <meta charset="UTF-8">
+    <title>Résumé - Anna Kupyniak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" >
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Anna Kupyniak</h1>
+            <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block--center">
+                <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar">
+                
+                <div class="contact-info__block contact-info__block--horizontal">
+                  <a href="#" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 
+                        0 85.961 85.961 0 192 0s192 85.961 192 
+                        192c0 77.413-26.97 99.031-172.268 
+                        309.67-9.535 13.774-29.93 13.773-39.464 
+                        0zM192 272c44.183 0 80-35.817 
+                        80-80s-35.817-80-80-80-80 35.817-80 80 
+                        35.817 80 80 80z"></path>
+                      </svg>
+                    </div>
+                    <span>Lviv, Ukraine</span>
+                  </a>
+                  <a href="#" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#6a737d" d="M48 64C21.5 64 0 85.5 0 112c0
+                        15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4
+                        0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48
+                        64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 
+                        339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                      </svg>
+                    </div>
+                    <span>annakupyniak@gmail.com</span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/anna-kupyniak-408827311/" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 
+                        480 31.9 480H416c17.6 0 32-14.5 
+                        32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 
+                        416H69V202.2h66.5V416zm-33.2-243c-21.3 
+                        0-38.5-17.3-38.5-38.5S80.9 96 102.2 
+                        96c21.2 0 38.5 17.3 38.5 38.5 0 
+                        21.3-17.2 38.5-38.5 38.5zm282.1 
+                        243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 
+                        0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 
+                        30.6-34.5 62.9-34.5 67.2 
+                        0 79.7 44.3 79.7 101.9V416z"></path>
+                      </svg>
+                    </div>
+                    <span>anna-kupyniak</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                    24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                    26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                    64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                    32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I'm Anna, a 2nd-year Computer Science student. I love programming, solving problems, and, of course, sleeping.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="tabs">
+              <button class="tablinks active" onclick="openTab(event, 'Skills')">Skills</button>
+              <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
+              <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+              <button class="tablinks" onclick="openTab(event, 'Love')">Love</button>
+            </div>
+
+            <div id="Skills" class="tabcontent" style="display: block;">
+              <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <p class="skills__text">
+                  HTML, CSS, React, Django, JavaScript, SQL, C++, C#, Teamwork, Problem-solving
+                </p>
+              </div>
+            </div>
+
+            <div id="Experience" class="tabcontent">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">Oct 2024 – Apr 2025</span>
+                    <h3 class="experiences__company-header-name">IT Garage</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Full-Stack Developer</span>
+                    <h3 class="experiences__company-project-name">Volunteer Platform</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Implemented features with React (frontend)</li>
+                      <li>Developed backend using Django</li>
+                      <li>Designed RESTful APIs</li>
+                      <li>Collaborated in a team of 4 developers</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Education" class="tabcontent">
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2023–Present</span>
+                    <h3 class="additional-info__education-university-speciality">Computer Science</h3>
+                    <p class="additional-info__education-university-name">Ivan Franko National University of Lviv</p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainian</p>
+                  <p class="additional-info__languages-item">English</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="Love" class="tabcontent">
+              <div class="love">
+                <img src="assets/heart.png" alt="Heart" class="love-button">
+                <div class="love-secret" >
+                  <img src="assets/Plankton.webp" alt="Plankton & Karen" class="love-image">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    
+      document.addEventListener('DOMContentLoaded', function () {
+        const heartBtn = document.querySelector('.love-button');
+        const secretDiv = document.querySelector('.love-secret');
+        const planktonImage = document.querySelector('.love-image');
+    
+        heartBtn.addEventListener('click', function () {
+          secretDiv.style.display = secretDiv.style.display === 'block' ? 'none' : 'block';
+        });
+    
+        let isSpongeBackground = false;
+        planktonImage.addEventListener('click', function () {
+          if (!isSpongeBackground) {
+            document.body.style.backgroundImage = "url('assets/sbbg.jpg')";
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundAttachment = "fixed";
+            isSpongeBackground = true;
+          } else {
+            document.body.style.backgroundImage = "";
+            isSpongeBackground = false;
+          }
+        });
+      });
+    </script>
+    
   </body>
 </html>
